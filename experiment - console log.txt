@@ -1,0 +1,429 @@
+Feature: 1 feat, Classifier: euclidean_3, Mean: 0.886, Standard deviation: 0.034
+Feature: 1 feat, Classifier: euclidean_5, Mean: 0.871, Standard deviation: 0.023
+Feature: 1 feat, Classifier: euclidean_9, Mean: 0.861, Standard deviation: 0.023
+Feature: 1 feat, Classifier: manhattan_3, Mean: 0.886, Standard deviation: 0.034
+Feature: 1 feat, Classifier: manhattan_5, Mean: 0.871, Standard deviation: 0.023
+Feature: 1 feat, Classifier: manhattan_9, Mean: 0.861, Standard deviation: 0.023
+Feature: 2 feat, Classifier: euclidean_3, Mean: 0.835, Standard deviation: 0.036
+Feature: 2 feat, Classifier: euclidean_5, Mean: 0.830, Standard deviation: 0.027
+Feature: 2 feat, Classifier: euclidean_9, Mean: 0.836, Standard deviation: 0.016
+Feature: 2 feat, Classifier: manhattan_3, Mean: 0.828, Standard deviation: 0.037
+Feature: 2 feat, Classifier: manhattan_5, Mean: 0.831, Standard deviation: 0.033
+Feature: 2 feat, Classifier: manhattan_9, Mean: 0.841, Standard deviation: 0.019
+Feature: 3 feat, Classifier: euclidean_3, Mean: 0.775, Standard deviation: 0.043
+Feature: 3 feat, Classifier: euclidean_5, Mean: 0.810, Standard deviation: 0.027
+Feature: 3 feat, Classifier: euclidean_9, Mean: 0.830, Standard deviation: 0.010
+Feature: 3 feat, Classifier: manhattan_3, Mean: 0.800, Standard deviation: 0.040
+Feature: 3 feat, Classifier: manhattan_5, Mean: 0.818, Standard deviation: 0.018
+Feature: 3 feat, Classifier: manhattan_9, Mean: 0.831, Standard deviation: 0.015
+Feature: 4 feat, Classifier: euclidean_3, Mean: 0.777, Standard deviation: 0.043
+Feature: 4 feat, Classifier: euclidean_5, Mean: 0.805, Standard deviation: 0.028
+Feature: 4 feat, Classifier: euclidean_9, Mean: 0.828, Standard deviation: 0.009
+Feature: 4 feat, Classifier: manhattan_3, Mean: 0.793, Standard deviation: 0.028
+Feature: 4 feat, Classifier: manhattan_5, Mean: 0.797, Standard deviation: 0.036
+Feature: 4 feat, Classifier: manhattan_9, Mean: 0.833, Standard deviation: 0.011
+Feature: 5 feat, Classifier: euclidean_3, Mean: 0.777, Standard deviation: 0.043
+Feature: 5 feat, Classifier: euclidean_5, Mean: 0.805, Standard deviation: 0.028
+Feature: 5 feat, Classifier: euclidean_9, Mean: 0.828, Standard deviation: 0.009
+Feature: 5 feat, Classifier: manhattan_3, Mean: 0.790, Standard deviation: 0.024
+Feature: 5 feat, Classifier: manhattan_5, Mean: 0.795, Standard deviation: 0.037
+Feature: 5 feat, Classifier: manhattan_9, Mean: 0.833, Standard deviation: 0.011
+Feature: 6 feat, Classifier: euclidean_3, Mean: 0.777, Standard deviation: 0.043
+Feature: 6 feat, Classifier: euclidean_5, Mean: 0.805, Standard deviation: 0.028
+Feature: 6 feat, Classifier: euclidean_9, Mean: 0.828, Standard deviation: 0.009
+Feature: 6 feat, Classifier: manhattan_3, Mean: 0.793, Standard deviation: 0.028
+Feature: 6 feat, Classifier: manhattan_5, Mean: 0.800, Standard deviation: 0.033
+Feature: 6 feat, Classifier: manhattan_9, Mean: 0.833, Standard deviation: 0.011
+Feature: 7 feat, Classifier: euclidean_3, Mean: 0.777, Standard deviation: 0.043
+Feature: 7 feat, Classifier: euclidean_5, Mean: 0.805, Standard deviation: 0.028
+Feature: 7 feat, Classifier: euclidean_9, Mean: 0.828, Standard deviation: 0.009
+Feature: 7 feat, Classifier: manhattan_3, Mean: 0.790, Standard deviation: 0.031
+Feature: 7 feat, Classifier: manhattan_5, Mean: 0.800, Standard deviation: 0.033
+Feature: 7 feat, Classifier: manhattan_9, Mean: 0.833, Standard deviation: 0.011
+
+
+
+
+
+1 Feature(s)
+t-statistic:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           0.00           1.13           1.88           0.00           1.13           1.88
+euclidean_5          -1.13           0.00           0.93          -1.13           0.00           0.93
+euclidean_9          -1.88          -0.93           0.00          -1.88          -0.93           0.00
+manhattan_3           0.00           1.13           1.88           0.00           1.13           1.88
+manhattan_5          -1.13           0.00           0.93          -1.13           0.00           0.93
+manhattan_9          -1.88          -0.93           0.00          -1.88          -0.93           0.00 
+
+p-value:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           1.00           0.27           0.08           1.00           0.27           0.08
+euclidean_5           0.27           1.00           0.36           0.27           1.00           0.36
+euclidean_9           0.08           0.36           1.00           0.08           0.36           1.00
+manhattan_3           1.00           0.27           0.08           1.00           0.27           0.08
+manhattan_5           0.27           1.00           0.36           0.27           1.00           0.36
+manhattan_9           0.08           0.36           1.00           0.08           0.36           1.00
+
+Advantage:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              1              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              0              0              0              0              0              0
+manhattan_3              0              1              1              0              1              1
+manhattan_5              0              0              1              0              0              1
+manhattan_9              0              0              0              0              0              0
+
+Statistical significance (alpha = 0.05):
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              0              0              0              0
+euclidean_5              0              0              0              0              0              0
+euclidean_9              0              0              0              0              0              0
+manhattan_3              0              0              0              0              0              0
+manhattan_5              0              0              0              0              0              0
+manhattan_9              0              0              0              0              0              0
+
+Statistically significantly better:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              0              0              0              0
+euclidean_5              0              0              0              0              0              0
+euclidean_9              0              0              0              0              0              0
+manhattan_3              0              0              0              0              0              0
+manhattan_5              0              0              0              0              0              0
+manhattan_9              0              0              0              0              0              0
+
+
+
+
+
+2 Feature(s)
+t-statistic:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           0.00           0.33          -0.00           0.44           0.30          -0.38
+euclidean_5          -0.33           0.00          -0.48           0.17          -0.00          -0.93
+euclidean_9           0.00           0.48           0.00           0.57           0.40          -0.62
+manhattan_3          -0.44          -0.17          -0.57           0.00          -0.16          -0.92
+manhattan_5          -0.30           0.00          -0.40           0.16           0.00          -0.80
+manhattan_9           0.38           0.93           0.62           0.92           0.80           0.00 
+
+p-value:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           1.00           0.74           1.00           0.67           0.77           0.71
+euclidean_5           0.74           1.00           0.64           0.87           1.00           0.36
+euclidean_9           1.00           0.64           1.00           0.58           0.69           0.54
+manhattan_3           0.67           0.87           0.58           1.00           0.88           0.37
+manhattan_5           0.77           1.00           0.69           0.88           1.00           0.44
+manhattan_9           0.71           0.36           0.54           0.37           0.44           1.00
+
+Advantage:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              1              1              1              1              1
+euclidean_5              0              0              1              1              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              1              1              0              1              1
+manhattan_5              0              1              1              1              0              1
+manhattan_9              1              1              1              1              1              0
+
+Statistical significance (alpha = 0.05):
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              0              0              0              0
+euclidean_5              0              0              0              0              0              0
+euclidean_9              0              0              0              0              0              0
+manhattan_3              0              0              0              0              0              0
+manhattan_5              0              0              0              0              0              0
+manhattan_9              0              0              0              0              0              0
+
+Statistically significantly better:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              0              0              0              0
+euclidean_5              0              0              0              0              0              0
+euclidean_9              0              0              0              0              0              0
+manhattan_3              0              0              0              0              0              0
+manhattan_5              0              0              0              0              0              0
+manhattan_9              0              0              0              0              0              0
+
+
+
+
+
+3 Feature(s)
+t-statistic:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           0.00          -2.08          -3.76          -1.30          -2.75          -3.67
+euclidean_5           2.08           0.00          -2.08           0.62          -0.68          -1.97
+euclidean_9           3.76           2.08           0.00           2.21           1.80          -0.01
+manhattan_3           1.30          -0.62          -2.21           0.00          -1.20          -2.15
+manhattan_5           2.75           0.68          -1.80           1.20           0.00          -1.63
+manhattan_9           3.67           1.97           0.01           2.15           1.63           0.00 
+
+p-value:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           1.00           0.05           0.00           0.21           0.01           0.00
+euclidean_5           0.05           1.00           0.05           0.54           0.50           0.07
+euclidean_9           0.00           0.05           1.00           0.04           0.09           0.99
+manhattan_3           0.21           0.54           0.04           1.00           0.25           0.05
+manhattan_5           0.01           0.50           0.09           0.25           1.00           0.12
+manhattan_9           0.00           0.07           0.99           0.05           0.12           1.00
+
+Advantage:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              1              1              1              1              1
+euclidean_5              1              0              1              1              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              1              1              1              0              1              1
+manhattan_5              1              1              1              1              0              1
+manhattan_9              1              1              1              1              1              0
+
+Statistical significance (alpha = 0.05):
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              0              0              0              0
+euclidean_9              1              0              0              1              0              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              0              0              0              0
+manhattan_9              1              0              0              1              0              0
+
+Statistically significantly better:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              0              0              0              0
+euclidean_9              1              0              0              1              0              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              0              0              0              0
+manhattan_9              1              0              0              1              0              0
+
+
+
+
+
+4 Feature(s)
+t-statistic:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           0.00          -1.61          -3.41          -0.88          -1.07          -3.73
+euclidean_5           1.61           0.00          -2.35           0.95           0.51          -2.83
+euclidean_9           3.41           2.35           0.00           3.60           2.47          -1.08
+manhattan_3           0.88          -0.95          -3.60           0.00          -0.32          -4.05
+manhattan_5           1.07          -0.51          -2.47           0.32           0.00          -2.86
+manhattan_9           3.73           2.83           1.08           4.05           2.86           0.00 
+
+p-value:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           1.00           0.12           0.00           0.39           0.30           0.00
+euclidean_5           0.12           1.00           0.03           0.35           0.62           0.01
+euclidean_9           0.00           0.03           1.00           0.00           0.02           0.30
+manhattan_3           0.39           0.35           0.00           1.00           0.75           0.00
+manhattan_5           0.30           0.62           0.02           0.75           1.00           0.01
+manhattan_9           0.00           0.01           0.30           0.00           0.01           1.00
+
+Advantage:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              1              1              1              1              1
+euclidean_5              1              0              1              1              1              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              1              1              1              0              1              1
+manhattan_5              1              1              1              1              0              1
+manhattan_9              1              1              1              1              1              0
+
+Statistical significance (alpha = 0.05):
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              1              0              0              1
+manhattan_9              1              1              0              1              1              0
+
+Statistically significantly better:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              1              0              0              1
+manhattan_9              1              1              0              1              1              0
+
+
+
+
+
+5 Feature(s)
+t-statistic:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           0.00          -1.61          -3.41          -0.77          -0.92          -3.73
+euclidean_5           1.61           0.00          -2.35           1.24           0.67          -2.83
+euclidean_9           3.41           2.35           0.00           4.45           2.61          -1.08
+manhattan_3           0.77          -1.24          -4.45           0.00          -0.33          -4.94
+manhattan_5           0.92          -0.67          -2.61           0.33           0.00          -2.99
+manhattan_9           3.73           2.83           1.08           4.94           2.99           0.00 
+
+p-value:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           1.00           0.12           0.00           0.45           0.37           0.00
+euclidean_5           0.12           1.00           0.03           0.23           0.51           0.01
+euclidean_9           0.00           0.03           1.00           0.00           0.02           0.30
+manhattan_3           0.45           0.23           0.00           1.00           0.75           0.00
+manhattan_5           0.37           0.51           0.02           0.75           1.00           0.01
+manhattan_9           0.00           0.01           0.30           0.00           0.01           1.00
+
+Advantage:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              1              1              1              1              1
+euclidean_5              1              0              1              1              1              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              1              1              1              0              1              1
+manhattan_5              1              1              1              1              0              1
+manhattan_9              1              1              1              1              1              0
+
+Statistical significance (alpha = 0.05):
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              1              0              0              1
+manhattan_9              1              1              0              1              1              0
+
+Statistically significantly better:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              1              0              0              1
+manhattan_9              1              1              0              1              1              0
+
+
+
+
+
+6 Feature(s)
+t-statistic:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           0.00          -1.61          -3.41          -0.88          -1.24          -3.73
+euclidean_5           1.61           0.00          -2.35           0.95           0.36          -2.83
+euclidean_9           3.41           2.35           0.00           3.60           2.44          -1.08
+manhattan_3           0.88          -0.95          -3.60           0.00          -0.51          -4.05
+manhattan_5           1.24          -0.36          -2.44           0.51           0.00          -2.85
+manhattan_9           3.73           2.83           1.08           4.05           2.85           0.00 
+
+p-value:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           1.00           0.12           0.00           0.39           0.23           0.00
+euclidean_5           0.12           1.00           0.03           0.35           0.73           0.01
+euclidean_9           0.00           0.03           1.00           0.00           0.03           0.30
+manhattan_3           0.39           0.35           0.00           1.00           0.62           0.00
+manhattan_5           0.23           0.73           0.03           0.62           1.00           0.01
+manhattan_9           0.00           0.01           0.30           0.00           0.01           1.00
+
+Advantage:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              1              1              1              1              1
+euclidean_5              1              0              1              1              1              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              1              1              1              0              1              1
+manhattan_5              1              1              1              1              0              1
+manhattan_9              1              1              1              1              1              0
+
+Statistical significance (alpha = 0.05):
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              1              0              0              1
+manhattan_9              1              1              0              1              1              0
+
+Statistically significantly better:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              1              0              0              1
+manhattan_9              1              1              0              1              1              0
+
+
+
+
+
+7 Feature(s)
+t-statistic:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           0.00          -1.61          -3.41          -0.71          -1.24          -3.73
+euclidean_5           1.61           0.00          -2.35           1.09           0.36          -2.83
+euclidean_9           3.41           2.35           0.00           3.51           2.44          -1.08
+manhattan_3           0.71          -1.09          -3.51           0.00          -0.65          -3.93
+manhattan_5           1.24          -0.36          -2.44           0.65           0.00          -2.85
+manhattan_9           3.73           2.83           1.08           3.93           2.85           0.00 
+
+p-value:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3           1.00           0.12           0.00           0.49           0.23           0.00
+euclidean_5           0.12           1.00           0.03           0.29           0.73           0.01
+euclidean_9           0.00           0.03           1.00           0.00           0.03           0.30
+manhattan_3           0.49           0.29           0.00           1.00           0.52           0.00
+manhattan_5           0.23           0.73           0.03           0.52           1.00           0.01
+manhattan_9           0.00           0.01           0.30           0.00           0.01           1.00
+
+Advantage:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              1              1              1              1              1
+euclidean_5              1              0              1              1              1              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              1              1              1              0              1              1
+manhattan_5              1              1              1              1              0              1
+manhattan_9              1              1              1              1              1              0
+
+Statistical significance (alpha = 0.05):
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              1              0              0              1
+manhattan_9              1              1              0              1              1              0
+
+Statistically significantly better:
+                euclidean_3    euclidean_5    euclidean_9    manhattan_3    manhattan_5    manhattan_9
+-----------  -------------  -------------  -------------  -------------  -------------  -------------
+euclidean_3              0              0              1              0              1              1
+euclidean_5              0              0              1              0              0              1
+euclidean_9              1              1              0              1              1              0
+manhattan_3              0              0              1              0              0              1
+manhattan_5              1              0              1              0              0              1
+manhattan_9              1              1              0              1              1              0
+
+Process finished with exit code 0
